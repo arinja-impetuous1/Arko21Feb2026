@@ -4,5 +4,7 @@
 let a=67;
 let b=43637;
 mul=a*b;
+let d=3;
+let g=2;
 
 
