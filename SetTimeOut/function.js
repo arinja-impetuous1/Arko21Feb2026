@@ -33,3 +33,17 @@ function b()
     console.log("inside b");
 }
 a(b);
+
+function outer()
+{
+    let count=0;
+    function inner()
+    {
+        count++;
+        console.log(count);
+    }
+    return inner;
+}
+let res=outer();
+res();
+res();
